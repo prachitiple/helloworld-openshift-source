@@ -19,7 +19,7 @@ namespace helloweb
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("<h1>My First ASP.NET apps!</h1>");
+                await context.Response.WriteAsync("<h1>My First ASP.NET!</h1>");
             });
         }
     }
